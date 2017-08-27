@@ -12,11 +12,12 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "standard": "*",
-    "tape": "^4.0.0",
+    "coveralls": "^2.13.1",
     "istanbul": "^0.3.22",
     "istanbul-coveralls": "^1.0.3",
-    "tap-spec": "^4.1.0"
+    "standard": "*",
+    "tap-spec": "^4.1.0",
+    "tape": "^4.0.0"
   },
   "homepage": "https://github.com/bwinkers/activerules-run-parallel",
   "keywords": [

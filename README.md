@@ -1,17 +1,15 @@
-# run-parallel [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
+# activerules-run-parallel
 
-[travis-image]: https://img.shields.io/travis/feross/run-parallel/master.svg
-[travis-url]: https://travis-ci.org/feross/run-parallel
-[npm-image]: https://img.shields.io/npm/v/run-parallel.svg
-[npm-url]: https://npmjs.org/package/run-parallel
-[downloads-image]: https://img.shields.io/npm/dm/run-parallel.svg
-[downloads-url]: https://npmjs.org/package/run-parallel
-[standard-image]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
-[standard-url]: https://standardjs.com
 
 ### Run an array of functions in parallel
 
-![parallel](https://raw.githubusercontent.com/feross/run-parallel/master/img.png) [![Sauce Test Status](https://saucelabs.com/browser-matrix/run-parallel.svg)](https://saucelabs.com/u/run-parallel)
+[![NPM version](https://img.shields.io/npm/v/activerules-run-parallel.svg)](https://www.npmjs.com/package/activerules-run-parallel)
+[![Build Status](https://travis-ci.org/bwinkers/activerules-run-parallel.svg?branch=master)](https://travis-ci.org/bwinkers/activerules-run-parallel)
+[![Code Climate](https://codeclimate.com/github/bwinkers/activerules-run-parallel/badges/gpa.svg)](https://codeclimate.com/github/bwinkers/activerules-run-parallel)
+[![Coverage Status](https://img.shields.io/coveralls/bwinkers/activerules-run-parallel.svg)](https://coveralls.io/github/bwinkers/activerules-run-parallel)
+[![Dependency Status](https://img.shields.io/david/bwinkers/activerules-run-parallel.svg?label=deps)](https://david-dm.org/bwinkers/activerules-run-parallel)
+[![devDependency Status](https://img.shields.io/david/dev/bwinkers/activerules-run-parallel.svg?label=devDeps)](https://david-dm.org/bwinkers/activerules-run-parallel#info=devDependencies)
+
 
 ### install
 

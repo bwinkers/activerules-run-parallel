@@ -13,7 +13,7 @@ module.exports = function (tasks, cb) {
 
   function done (err) {
     function end () {
-      if (cb) cb(err, results)
+      if (cb) return cb(err, results)
       cb = null
     }
     if (isSync) process.nextTick(end)

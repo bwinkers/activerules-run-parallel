@@ -1,22 +1,21 @@
 {
-  "name": "run-parallel",
+  "name": "activerules-run-parallel",
   "description": "Run an array of functions in parallel",
-  "version": "1.1.6",
+  "version": "1.0.0",
   "author": {
-    "name": "Feross Aboukhadijeh",
-    "email": "feross@feross.org",
-    "url": "http://feross.org/"
+    "name": "Brian Winkers",
+    "email": "bwinkers@gmail.com",
+    "url": "https://github.com/bwinkers"
   },
   "bugs": {
-    "url": "https://github.com/feross/run-parallel/issues"
+    "url": "https://github.com/bwinkers/activerules-run-parallel/issues"
   },
   "dependencies": {},
   "devDependencies": {
     "standard": "*",
-    "tape": "^4.0.0",
-    "zuul": "^3.1.0"
+    "tape": "^4.0.0"
   },
-  "homepage": "https://github.com/feross/run-parallel",
+  "homepage": "https://github.com/bwinkers/activerules-run-parallel",
   "keywords": [
     "parallel",
     "async",
@@ -25,18 +24,17 @@
     "asynchronous",
     "run",
     "array",
-    "run parallel"
+    "run parallel",
+    "activerules"
   ],
   "license": "MIT",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/feross/run-parallel.git"
+    "url": "git://github.com/bwinkers/activerules-run-parallel.git"
   },
   "scripts": {
-    "test": "standard && npm run test-node && npm run test-browser",
-    "test-browser": "zuul -- test/*.js",
-    "test-browser-local": "zuul --local -- test/*.js",
+    "test": "standard && npm run test-node", 
     "test-node": "tape test/*.js"
   }
 }

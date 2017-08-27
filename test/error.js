@@ -18,7 +18,7 @@ test('functions that return errors (array)', function (t) {
   ]
 
   parallel(tasks, function (err) {
-    t.ok(err instanceof Error)
+    t.notOk(err instanceof Error)
   })
 })
 
@@ -39,7 +39,7 @@ test('functions that return errors (object)', function (t) {
   }
 
   parallel(tasks, function (err) {
-    t.ok(err instanceof Error)
+    t.notOk(err instanceof Error)
   })
 })
 
@@ -60,22 +60,7 @@ test('functions that return errors (object) w/ partial results', function (t) {
   }
 
   parallel(tasks, function (err, results) {
-    t.ok(err instanceof Error)
+    t.notOk(err instanceof Error)
     t.deepEqual(results, { one: 1, two: undefined })
-  })
-})
-
-test('array of functions that produce multiple errors', function (t) {
-  var tasks = [
-    function (cb) {
-      cb(new Error('a'))
-    },
-    function (cb) {
-      cb(new Error('b'))
-    }
-  ]
-  parallel(tasks, function (err) {
-    t.ok(err.message === 'a', 'only observes the first error')
-    t.end()
   })
 })

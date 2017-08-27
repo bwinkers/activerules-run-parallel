@@ -22,8 +22,8 @@ module.exports = function (tasks, cb) {
 
   function each (i, err, result) {
     results[i] = result
-    if (--pending === 0 || err) {
-      done(err)
+    if (--pending === 0) {
+      done(null)
     }
   }
 

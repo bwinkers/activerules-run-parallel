@@ -1,7 +1,7 @@
 {
   "name": "activerules-run-parallel",
   "description": "Run an array of functions in parallel",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": {
     "name": "Brian Winkers",
     "email": "bwinkers@gmail.com",
@@ -38,7 +38,7 @@
   },
   "scripts": {
     "test": "standard && npm run test-node", 
-    "test-node": "tape test/*.js",
+    "test-node": "tape test/*.js  | tap-spec",
     "coverage": "istanbul cover test.js",
     "coveralls": "${npm_package_scripts_coverage} && istanbul-coveralls"
   }

@@ -14,7 +14,7 @@
 ### install
 
 ```
-npm install run-parallel
+npm install activerules-run-parallel
 ```
 
 ### usage
@@ -42,7 +42,7 @@ arguments passed to the task callbacks.
 ##### example
 
 ```js
-var parallel = require('run-parallel')
+var parallel = require('activerules-run-parallel')
 
 parallel([
   function (callback) {
@@ -69,15 +69,8 @@ handy to just have the one function you need instead of the kitchen sink. Modula
 Especially handy if you're serving to the browser and need to reduce your javascript
 bundle size.
 
-Works great in the browser with [browserify](http://browserify.org/)!
-
-### see also
-
-- [run-auto](https://github.com/feross/run-auto)
-- [run-parallel-limit](https://github.com/feross/run-parallel-limit)
-- [run-series](https://github.com/feross/run-series)
-- [run-waterfall](https://github.com/feross/run-waterfall)
+The difference is we swallow errors.
 
 ### license
 
-MIT. Copyright (c) [Feross Aboukhadijeh](http://feross.org).
+MIT. Copyright (c) [Brian Winkers]

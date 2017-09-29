@@ -9,6 +9,7 @@
 [![Coverage Status](https://img.shields.io/coveralls/bwinkers/activerules-run-parallel.svg)](https://coveralls.io/github/bwinkers/activerules-run-parallel)
 [![Dependency Status](https://img.shields.io/david/bwinkers/activerules-run-parallel.svg?label=deps)](https://david-dm.org/bwinkers/activerules-run-parallel)
 [![devDependency Status](https://img.shields.io/david/dev/bwinkers/activerules-run-parallel.svg?label=devDeps)](https://david-dm.org/bwinkers/activerules-run-parallel#info=devDependencies)
+[![Known Vulnerabilities](https://snyk.io/test/github/bwinkers/activerules-run-parallel/badge.svg)](https://snyk.io/test/github/bwinkers/activerules-run-parallel)
 
 
 ### install

@@ -76,4 +76,4 @@ The difference is we swallow errors.
 
 MIT. Copyright (c) [Brian Winkers]
 
-Check back soon...
+Checkout [ActiveRules Phalcon](https://github.com/bwinkers/docker-php7-phalcon)
